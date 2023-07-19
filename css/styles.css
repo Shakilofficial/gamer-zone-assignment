@@ -123,23 +123,23 @@ header {
   text-transform: uppercase;
 }
 
-/* online section  */
+/* online section styles  */
 .online {
-  margin: 0 240px;
+  margin: 0 240px 100px;
   text-align: center;
 }
-.online h1 {
+.header-title {
   color: #0b0223;
   font-size: 3rem;
   font-weight: 700;
 }
-.online p {
+.description {
   color: #534c64;
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 40px;
 }
-.header-title {
+.title {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -150,17 +150,63 @@ header {
   justify-content: space-evenly;
   text-align: start;
 }
-.card{
+.card {
   width: 320px;
-  height:auto;
+  height: auto;
 }
 .card img {
   width: 300px;
   margin-bottom: 5px;
 }
-.caption{
-  color: #534C64;
-font-size: 1.25rem;
-font-weight: 500;
+.caption {
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
 
+/* play section styles  */
+
+.play {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 240px 100px;
+  gap: 100px;
+}
+.content-container {
+  text-align: right;
+  padding-top: 180px;
+}
+.tile-img img {
+  position: relative;
+  bottom: 280px;
+  right: 150px;
+}
+
+.features {
+}
+.features-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100px;
+  width: 250px;
+  margin: 10px;
+  border-radius: 50px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  border: 2px solid #fff;
+}
+.features-card img,
+.features-card p {
+  display: inline-block;
+}
+.features-card:hover{
+  border:2px solid #FF42A5;
+  
 }
