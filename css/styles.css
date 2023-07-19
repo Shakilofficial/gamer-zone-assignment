@@ -79,7 +79,6 @@ header {
   padding-right: 240px;
 }
 
-
 .banner-content h2 {
   color: #0b0223;
   font-size: 3rem;
@@ -122,4 +121,46 @@ header {
   font-size: 1.25rem;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+/* online section  */
+.online {
+  margin: 0 240px;
+  text-align: center;
+}
+.online h1 {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.online p {
+  color: #534c64;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.header-title {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: start;
+}
+.card{
+  width: 320px;
+  height:auto;
+}
+.card img {
+  width: 300px;
+  margin-bottom: 5px;
+}
+.caption{
+  color: #534C64;
+font-size: 1.25rem;
+font-weight: 500;
+
 }
