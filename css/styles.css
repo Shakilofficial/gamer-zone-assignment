@@ -151,12 +151,25 @@ header {
   text-align: start;
 }
 .card {
+  position: relative;
+  display: inline-block;
   width: 320px;
   height: auto;
 }
 .card img {
+  display: block;
   width: 300px;
   margin-bottom: 5px;
+  filter: brightness(50%);
+}
+.play-icon{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 4rem;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 .caption {
   color: #534c64;
@@ -182,14 +195,15 @@ header {
   right: 150px;
 }
 
+/* features section styles  */
 .features {
+  margin-bottom: 50px;
 }
 .features-row {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .features-card {
   display: flex;
   align-items: center;
@@ -206,7 +220,40 @@ header {
 .features-card p {
   display: inline-block;
 }
-.features-card:hover{
-  border:2px solid #FF42A5;
-  
+.features-card:hover {
+  border: 2px solid #ff42a5;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1920px;
+  height: 500px;
+  background: #78C1F3;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu-section a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 10px;
+}
+.social-links i {
+  margin: 20px 10px;
+  color: #ff42a5;
+  font-size: 2rem;
+}
+.external-links a, .copyright {
+  text-decoration: none;
+  margin: 20px 10px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 500;
 }

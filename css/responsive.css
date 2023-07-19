@@ -37,6 +37,47 @@
   .banner-img img{
     width: 100%;
   }
+  .play{
+    flex-direction: column;
+    margin: 0;
+  }
+  .card-container{
+    flex-direction: column;
+    display: flex;
+  }
+  .online {
+    margin: 0;
+    text-align: center;
+  }
+  .img-container img{
+    width: 100%;
+  }
+  .content-container {
+    text-align: right;
+    padding-top: 180px;
+  }
+  .tile-img img {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 50%;
+    top: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .features-card {
+    width: 100%;
+    margin: 10px 0; 
+    border-radius: 20px; 
+  }
+
+  .features-row {
+    flex-wrap: wrap; 
+  }
+footer{
+  width: 100%;
+}
+
 }
 
 /* responsive for tablet and medium devices  */
