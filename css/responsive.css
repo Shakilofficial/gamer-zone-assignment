@@ -21,10 +21,10 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   .banner-content-area .banner-content {
-    padding-left: 0px;
-    padding-top: 0px;
+    padding: 40px;
     display: block;
     justify-content: center;
     align-items: center;
@@ -32,24 +32,33 @@
   .banner-img {
     padding-right: 0px;
     width: 100%;
-    margin:0px 210px 0px 190px ;
+    margin: 0px 210px 0px 190px;
   }
-  .banner-img img{
+  .banner-img img {
     width: 100%;
   }
-  .play{
+  .banner-content .btn-1,
+  .banner-content .btn-2 {
+    padding: 10px 20px;
+    margin: 10px;
+  }
+  .play {
     flex-direction: column;
     margin: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
-  .card-container{
+  .card-container {
     flex-direction: column;
     display: flex;
+    padding: 50px;
   }
   .online {
     margin: 0;
     text-align: center;
   }
-  .img-container img{
+  .img-container img {
     width: 100%;
   }
   .content-container {
@@ -60,40 +69,49 @@
     position: relative;
     bottom: 0;
     right: 0;
-    left: 50%;
-    top: 50%;
+    left: 30%;
+    top: 60%;
     width: 50%;
     transform: translate(-50%, -50%);
   }
   .features-card {
     width: 100%;
-    margin: 10px 0; 
-    border-radius: 20px; 
+    margin: 10px 0;
+    border-radius: 20px;
   }
 
   .features-row {
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
   }
-footer{
-  width: 100%;
-}
-
+  footer {
+    width: 100%;
+  }
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 /* responsive for tablet and medium devices  */
-@media screen and (min-width: 426px) and (max-width: 960px) {
-  .nav-container,
-  .nav-items-container {
-    flex-direction: column;
-    padding: 0;
-    width: 100%;
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .nav-container {
+    padding: 0 40px 0 40px;
   }
+
   .logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 70%;
   }
+
+  .logo-container p {
+    font-size: 35px;
+  }
+
+  .nav-items-container {
+    width: 30%;
+    justify-content: space-between;
+  }
+
   .nav-items-container a {
-    margin-bottom: 30px;
+    font-size: 0.8rem;
   }
 }
